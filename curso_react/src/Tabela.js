@@ -19,7 +19,7 @@ const TableBody = props => {
 
         return (
             <tr key={index}>
-                <td> {autor.autor} </td>
+                <td> {autor.nome} </td>
                 <td> {autor.livro} </td>
                 <td> {autor.preco} </td>
                 <td>
